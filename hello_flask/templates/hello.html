@@ -1,0 +1,13 @@
+{% extends "master.html" %}
+
+{% block title %}
+Hello
+{% endblock %}
+
+{% block body %}
+Hello {{ name }} 永岁飘零
+<br>
+<a href="{{url_for('index')}}">
+    <button>首页</button>
+</a>
+{% endblock %}

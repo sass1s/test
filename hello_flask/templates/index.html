@@ -1,0 +1,13 @@
+{% extends "master.html" %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block body %}
+It Works! daqing guagua!
+<br>
+<a href="{{url_for('hello', name)}}">
+    <button>打招呼</button>
+</a>
+{% endblock %}
